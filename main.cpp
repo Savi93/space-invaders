@@ -49,6 +49,8 @@ int main()
     io = IOManager::getSingleton();
     io->initDisplay();
 
+    srand(time(NULL));
+
     sound_thread = new Thread();
     sound_thread->start(SoundManagement);
 
