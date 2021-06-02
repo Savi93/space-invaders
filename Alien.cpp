@@ -158,7 +158,6 @@ void Alien::randomBulletRelease()
 
 void Alien::moveAllRandom()
 {
-    srand(time(NULL));
     uint32_t val = rand() % 2;
 
     switch(val)
