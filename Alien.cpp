@@ -61,7 +61,7 @@ bool Alien::areInField()
     bool are = true;
 
     for(Alien& alien : aliens)
-        if(alien.alive && alien.end_y >= SIZE_Y - 10)
+        if(alien.alive && alien.end_y >= SIZE_Y - 5)
         {
             are = false;
             break;
