@@ -7,4 +7,4 @@ Finally, a small active buzzer has been placed and controlled through a PWM wave
 
 ### Technologies used: STM32 Nucleo, ARM MbedOS, C/C++, SPI
 
-![Alt text](GameDemo.jpg)
+![Alt text](GameDemo.png)
